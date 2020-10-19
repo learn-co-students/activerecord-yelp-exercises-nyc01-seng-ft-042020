@@ -5,5 +5,4 @@ class Dish < ActiveRecord::Base
 
     validates :name, presence: true
     validates :restaurant, presence: true
-    
 end
